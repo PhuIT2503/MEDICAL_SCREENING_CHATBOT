@@ -1,0 +1,11 @@
+langchain
+langchain-google-genai
+langchain-core
+faiss-cpu
+torch
+transformers
+underthesea
+python-dotenv
+pandas
+pydantic
+numpy

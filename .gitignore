@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc.envmodels/
+data/*.index
+data/*.pkl
+*.bin
+venv/
+env/
+data_medical/
+.env
+vector_store/
+model/
