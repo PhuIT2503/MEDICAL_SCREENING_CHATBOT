@@ -48,6 +48,10 @@ Dưới đây là biểu đồ sự hội tụ của hàm mất mát (Loss funct
 > Quá trình Fine-tuning PhoBERT trên dữ liệu y tế cho thấy sự hội tụ tốt. Training Loss và Evaluation Loss đều giảm ổn định về mức ~1.8, xác nhận mô hình đã học được các đặc trưng ngôn ngữ chuyên ngành mà không bị overfitting. Chiến lược giảm Learning Rate tuyến tính giúp quá trình tối ưu hóa diễn ra ổn định.
 ---
 
+### Kết quả phân loại bệnh
+![Evaluation metrics](./assets/metrics.jpg)
+
+> Mô hình dự đoán bệnh từ triệu chứng đạt 87% độ chính xác với điều kiện người dùng mô tả triệu chứng đầy đủ. Nhờ fine-tuned mô hình nhúng PhoBERT giúp embedding dữ liệu y tế chính xác hơn từ đó cải thiện độ chính xác hơn mô hình PhoBERT-base vốn hiểu ngôn ngữ tiếng Việt một cách tổng quát.
 ## Cấu trúc dự án
 
 ```text
